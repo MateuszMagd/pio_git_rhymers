@@ -9,6 +9,14 @@ public class DefaultCountingOutRhymer {
     private static final int RETURN_WITH_EMPTY_TABLE = -1;
     private final int[] numbers = new int[NUMBERS_TABLE_SIZE];
 
+    public int getTotal() {
+        return total;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
+    }
+
     public int total = TOTAL_START_VALUE;
 
     public void countIn(int in) {
