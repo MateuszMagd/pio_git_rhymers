@@ -6,7 +6,7 @@ public class DefaultCountingOutRhymer {
     public static final int TOTAL_START_VALUE = -1;
     public static final int EMPTY_TABLE = -1;
     public static final int FULL_TABLE = NUMBERS_TABLE_SIZE - 1;
-    public static final int RETURN_WITH_EMPTY_TABLE = -1;
+    private static final int RETURN_WITH_EMPTY_TABLE = -1;
     private final int[] numbers = new int[NUMBERS_TABLE_SIZE];
 
     public int total = TOTAL_START_VALUE;
